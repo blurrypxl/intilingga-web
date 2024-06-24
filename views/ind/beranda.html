@@ -14,6 +14,23 @@
 </head>
 
 <body class="border-black vh-100">
+  <div>
+    <div class="border-green container-fluid d-flex justify-content-end">
+      <div class="border-red row">
+        <div class="col">
+          <a href="#" target="_blank">
+            Carrier
+          </a>
+        </div>
+
+        <div class="col">
+          <a href="#">
+            English
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Navigation Bar -->
   <nav class="border-green navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -27,13 +44,16 @@
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+        <div class="border-blue offcanvas-body">
+          <ul class="border-red navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
@@ -51,6 +71,7 @@
             </li>
           </ul>
         </div>
+
       </div>
     </div>
   </nav>
@@ -85,16 +106,16 @@
 
   </div>
 
-  <footer class="border-red h-50 container-fluid d-flex flex-column justify-content-center">
+  <footer class="border-red container-fluid d-flex flex-column justify-content-center">
 
     <!-- Address Section -->
     <div class="border-yellow container">
 
-      <div class="row row-cols-auto">
-        <div class="border-blue col col-sm-6 container">
+      <div class="row d-flex flex-column">
+        <div class="border-blue container col">
           <div class="row row-cols-1">
             <!-- Logo Footer - Section -->
-            <div class="col">
+            <div class="border-green mb-3 col">
               <a class="navbar-brand" href="#">
                 <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
                   class="d-inline-block align-text-top">
@@ -103,14 +124,14 @@
             </div>
 
             <!-- Address Desc -->
-            <div class="col container">
+            <div class="border-red mt-3 container-fluid col ">
               <div class="row row-cols-1">
-                <div class="col">
-                  <h4>ALAMAT KANTOR</h4>
+                <div class="border-blue mb-2 col">
+                  <h4 class="fs-6">ALAMAT KANTOR</h4>
                 </div>
 
-                <div class="col container">
-                  <div class="row">
+                <div class="border-black mt-2 col container">
+                  <div class="row d-flex flex-column">
                     <div class="col">
                       <p>Komplek Mega Grosir Cempaka Mas</p>
                       <p>Blok A No. 20</p>
@@ -131,14 +152,14 @@
         </div>
 
         <!-- Sitemap Section -->
-        <div class="border-red d-flex flex-column justify-content-end col col-sm-6 container">
+        <div class="border-red d-flex flex-column justify-content-end col container">
 
-          <div class="border-blue row row-cols-1">
+          <div class="border-blue mb-2 row row-cols-1">
 
             <div class="col container">
               <div class="row row-cols-1">
                 <div class="col">
-                  <h4>SITEMAP</h4>
+                  <h4 class="fs-6">SITEMAP</h4>
                 </div>
 
                 <div class="col container">
@@ -169,10 +190,10 @@
 
           </div>
 
-          <div class="border-green row row-cols-1">
+          <div class="border-green mt-2 row row-cols-1">
 
             <div class="col">
-              <h4>FIND US ON</h4>
+              <h4 class="fs-6">FIND US ON</h4>
             </div>
 
             <div class="col container">
