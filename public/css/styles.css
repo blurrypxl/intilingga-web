@@ -1,0 +1,70 @@
+* p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.border-red {
+  border: 2px solid red; 
+}
+
+.border-green {
+  border: 2px solid green;
+}
+
+.border-yellow {
+  border: 2px solid yellow;
+}
+
+.border-blue {
+  border: 2px solid blue;
+}
+
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.f-justify-content-flex-start {
+  justify-content: flex-start;
+}
+
+.f-justify-content-center {
+  justify-content: center;
+}
+
+.f-justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.f-align-content-flex-start {
+  align-content: flex-start;
+}
+
+.f-align-content-center {
+  align-content: center;
+}
+
+.f-align-content-flex-end {
+  align-content: flex-end;
+}
+
+.f-wrap-column {
+  flex-flow: column wrap;
+}
+
+.max-height-60 {
+  max-height: 60%;
+}
+
+div.sitemap-container p {
+  margin-right: 5em;
+}
+
+.width-100 {
+  width: 100%;
+}
