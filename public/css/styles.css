@@ -3,7 +3,16 @@
   padding: 0;
 }
 
-.border-black {
+.bg-footer {
+  background-color: #1d1d1d
+}
+
+.m-top-bottom-txt-20 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* .border-black {
   border: 2px solid black;
 }
 
@@ -21,4 +30,4 @@
 
 .border-blue {
   border: 2px solid blue;
-}
+} */
