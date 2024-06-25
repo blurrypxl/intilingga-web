@@ -37,7 +37,8 @@ a:link {
 }
 
 .border-bottom {
-  border-bottom: 1.5px;
+  border-bottom: 1px;
+  border-bottom-color: rgb(223, 223, 223);
 }
 
 /* .border-orange {
