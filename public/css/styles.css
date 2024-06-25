@@ -3,14 +3,50 @@
   padding: 0;
 }
 
+.bg-lang-sec {
+  display: flex;
+  width: 5em;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-lang-sec {
+    justify-content: flex-end;
+    width: auto;
+  }
+}
+
 .bg-footer {
   background-color: #1d1d1d
+}
+
+.bg-subnav {
+  background-color: rgb(245, 245, 245);
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .m-top-bottom-txt-20 p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.navbar {
+  padding: 0 !important;
+}
+
+.border-bottom {
+  border-bottom: 1.5px;
+}
+
+/* .border-orange {
+  border: 2px solid orange;
+}
+
+.border-violet {
+  border: 2px solid violet;
+} */
 
 /* .border-black {
   border: 2px solid black;

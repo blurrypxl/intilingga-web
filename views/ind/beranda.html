@@ -11,22 +11,35 @@
 
   <!-- Styling CSS -->
   <link rel="stylesheet" href="../../public/css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="border-black vh-100">
-  <div>
-    <div class="border-green container-fluid d-flex justify-content-end">
-      <div class="border-red row">
-        <div class="col">
-          <a href="#" target="_blank">
-            Carrier
-          </a>
-        </div>
+  <div class="border-bottom">
+    <div class="border-green pe-4 container-fluid d-flex justify-content-end">
+      <div class="border-red bg-lang-sec row">
+        <div class="col container">
+          <div class="border-blue row">
+            <!-- Carrier Link -->
+            <!--
+            <div class="col">
+              <a class="text-black" href="#" target="_blank">
+                Carrier
+              </a>
+            </div>
+            -->
 
-        <div class="col">
-          <a href="#">
-            English
-          </a>
+            <div class="col d-flex justify-content-center">
+              <a href="#">
+                <img src="../../public/images/usa.png" alt="change languange to english (united states)" width="30"
+                  height="30">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -35,9 +48,8 @@
   <nav class="border-green navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+        <img src="../../public/images/intilingga-logo-2.1.png" alt="Logo" width="200" height="60"
           class="d-inline-block align-text-top">
-        Bootstrap
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -118,9 +130,8 @@
             <!-- Logo Footer - Section -->
             <div class="border-green mb-3 col">
               <a class="navbar-brand text-white" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                <img src="#" alt="Logo" width="200" height="60"
                   class="d-inline-block align-text-top">
-                Bootstrap
               </a>
             </div>
 
@@ -214,7 +225,7 @@
             </div>
 
           </div>
-        
+
         </div>
 
       </div>
@@ -222,8 +233,10 @@
     </div>
 
     <!-- Copyright Section -->
-    <div>
+    <div class="border-orange mb-5 pt-4 pb-4 container d-flex justify-content-between">
+      <p class="text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Inti Lingga Group All Rights Reserved.</p>
 
+      <p class="text-white">Made with <i class="fa-solid fa-heart" style="color: #ff3d3d;"></i> in Inti Lingga Group.</p>
     </div>
   </footer>
 
