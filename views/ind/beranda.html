@@ -48,8 +48,8 @@
   <nav class="border-green navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="../../public/images/intilingga-logo-2.1.png" alt="Logo" width="240" height="75"
-          class="d-inline-block align-text-top">
+        <img src="../../public/images/intilingga-logo-2.1.png" alt="Logo"
+          class="logo-size d-inline-block align-text-top">
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -60,7 +60,11 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <a class="navbar-brand offcanvas-title" id="offcanvasNavbarLabel" href="#">
+            <img src="../../public/images/intilingga-logo-2.1.png" alt="Logo"
+              class="logo-size d-inline-block align-text-top">
+          </a>
+
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
@@ -93,10 +97,11 @@
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
 
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        
+
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
 
@@ -104,7 +109,7 @@
 
         <div class="carousel-item active" data-bs-interval="10000">
           <!-- <img src="../../public/images/ig-1 (1).jpg" width="80%" height="650" class="d-block" alt="..."> -->
-          
+
           <div class="retangle-box">
             <p class="position-absolute top-50 start-50 translate-middle fs-1 text-white">Image 1</p>
           </div>
@@ -178,8 +183,7 @@
             <!-- Logo Footer - Section -->
             <div class="border-green mb-3 col">
               <a class="navbar-brand text-white" href="#">
-                <img src="#" alt="Logo" width="200" height="60"
-                  class="d-inline-block align-text-top">
+                <img src="#" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
               </a>
             </div>
 
@@ -283,9 +287,12 @@
     <!-- TODO: Make Copyright Section Responsive to Mobile -->
     <!-- Copyright Section -->
     <div class="border-orange mb-5 pt-4 pb-4 container d-flex flex-column flex-md-row justify-content-between">
-      <p class="text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Inti Lingga Group All Rights Reserved.</p>
+      <p class="text-white">Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> Inti Lingga Group All Rights Reserved.
+      </p>
 
-      <p class="text-white">Made with <i class="fa-solid fa-heart" style="color: #ff3d3d;"></i> in Inti Lingga Group.</p>
+      <p class="text-white">Made with <i class="fa-solid fa-heart" style="color: #ff3d3d;"></i> in Inti Lingga Group.
+      </p>
     </div>
   </footer>
 
