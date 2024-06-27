@@ -3,6 +3,45 @@
   padding: 0;
 }
 
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-absolute-bottom-15 {
+  bottom: 15% !important;
+}
+
+.bussiness-list-position {
+  position: absolute;
+  top: -40px;
+}
+@media screen and (max-width: 768px) {
+  .bussiness-list-position {
+    position: relative;
+    top: 0;
+    border: 0px;
+  }
+}
+
+.bussiness-list-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .bussiness-list-item {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 990px) {
   .b-lists-container {
     width: 720px !important;
@@ -82,10 +121,11 @@ a:link {
   border: 2px solid violet;
 }
 
-/* .border-black {
+.border-black {
   border: 2px solid black;
 }
 
+/*
 .border-red {
   border: 2px solid red; 
 }
