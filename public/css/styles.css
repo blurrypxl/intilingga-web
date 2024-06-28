@@ -1,11 +1,15 @@
 * p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* FONT COLORS */
+/* FONT */
 .txt-yellow {
-  color: rgb(255, 179, 0);
+  color: #FFD43B;
+}
+.font-size {
+  font-size: 14px;
 }
 
 .position-relative {
@@ -74,32 +78,62 @@
   }
 }
 
-/* About Us Resume Section */
-.about-us {
+/* About Us & Our Service Resume Section */
+.about-us, .our-service {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 @media screen and (max-width: 767px) {
-  .about-us {
+  .about-us, .our-service {
     padding-top: 0;
     padding-bottom: 1rem;
   }
 }
 
-/* .about {
-  width: 30rem
-} */
-
 .about-img {
-  background-color: rgb(141, 140, 140);
-  /* border: 1px solid rgb(9, 9, 97); */
+  /* background-color: rgb(141, 140, 140);
+  border: 1px solid rgb(9, 9, 97); */
+  border-radius: 10px;
   padding: 0 !important;
-  box-shadow: 40px 20px 0px rgb(255, 179, 0);
+  box-shadow: 30px 30px 0px #FFD43B;
+}
+.about-img img {
+  border-radius: 10px;
 }
 
-.about-desc {
+.service-img img {
+  /* background-color: rgb(141, 140, 140); */
+  /* border: 1px solid rgb(9, 9, 97); */
+  border-radius: 10px;
+  padding: 0 !important;
+}
+
+.warehouse-img-mobile {
+  display: block;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 768px ) {
+  .warehouse-img-mobile {
+    display: none;
+  }
+}
+
+.shadow-img {
+  box-shadow: -10px 30px 0px #FFD43B;
+  border-radius: 10px;
+}
+
+.about-desc, .service-desc {
   /* border: 1px solid salmon; */
   margin-bottom: 1rem;
+}
+
+.contact-us {
+  background-color: rgb(167, 29, 29);
+}
+
+.contact-btn {
+  background-color: rgb(117, 16, 16);
 }
 
 .retangle-box {
@@ -121,16 +155,29 @@
 
 /* Why Choose Us - Section */
 .why-choose-us {
-  padding-top: 0rem;
-  padding-bottom: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.why-choose-us-items {
+  width: 15rem;
+}
+@media screen and (max-width: 767px) {
+  .why-choose-us-items {
+    margin-bottom: 3em;
+  }
+}
+
+.why-choose-us-items p {
+  font-size: 12px;
 }
 
 .circle-icon {
   /* border: 1px solid black; */
   background-color: #FFD43B;
   border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .bg-lang-sec {
@@ -174,6 +221,11 @@ a:link {
 
 .navbar {
   padding: 0 !important;
+}
+
+.logo-dec {
+  right: 0;
+  bottom: 0;
 }
 
 .border-orange {
