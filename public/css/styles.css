@@ -223,9 +223,21 @@ a:link {
   padding: 0 !important;
 }
 
+.nav-item a:hover, .active-link {
+  color: rgb(167, 29, 29) !important;
+}
+
+.active-link {
+  border-bottom: 3px solid rgb(167, 29, 29);
+}
+
 .logo-dec {
   right: 0;
   bottom: 0;
+}
+
+.z-index-10 {
+  z-index: 10;
 }
 
 .border-orange {
@@ -236,7 +248,6 @@ a:link {
   border: 2px solid violet;
 }
 
-/*
 .border-black {
   border: 2px solid black;
 }
@@ -255,4 +266,4 @@ a:link {
 
 .border-blue {
   border: 2px solid blue;
-} */
+}
