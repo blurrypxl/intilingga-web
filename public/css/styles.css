@@ -78,6 +78,25 @@
   }
 }
 
+/* Our Mission - Section */
+.our-vision {
+  overflow: hidden;
+}
+
+.our-vision-bg {
+  background-color: rgb(38, 38, 38);
+}
+
+.our-mission-bg {
+  background-color: #FFD43B;
+}
+
+.eye-icon {
+  top: -15;
+  right: -50;
+  z-index: -1;
+}
+
 /* About Us & Our Service Resume Section */
 .about-us, .our-service {
   padding-top: 8rem;
