@@ -4,6 +4,65 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+p, a {
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  p, a {
+    font-size: 12px;
+  }
+}
+
+/* Kontak Kami */
+.contact-us-container {
+  border-top: 15px solid rgb(167, 29, 29) !important;
+  border-radius: 15px;
+  box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.123);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -4rem;
+  margin-bottom: 5rem;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  .contact-us-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+}
+
+.gmaps-container {
+  padding: 0;
+}
+
+.form-input-p {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.form-name, .form-telp {
+  margin-right: 10px !important;
+}
+.form-email, .form-subject {
+  margin-left: 10px !important;
+}
+@media screen and (max-width: 764px) {
+  .form-name, .form-telp {
+    margin-right: 0px !important;
+  }
+  .form-email, .form-subject {
+    margin-left: 0px !important;
+  }
+}
+
 /* FONT */
 .txt-yellow {
   color: #FFD43B;
@@ -79,7 +138,7 @@
 }
 
 /* Our Mission - Section */
-.our-vision {
+.our-vision, .our-mission {
   overflow: hidden;
 }
 
@@ -93,6 +152,12 @@
 
 .eye-icon {
   top: -15;
+  right: -50;
+  z-index: -1;
+}
+
+.target-icon {
+  top: 16;
   right: -50;
   z-index: -1;
 }
@@ -250,9 +315,13 @@ a:link {
   border-bottom: 3px solid rgb(167, 29, 29);
 }
 
-.logo-dec {
-  right: 0;
-  bottom: 0;
+.logo-decs {
+  right: -170;
+  bottom: -130;
+}
+
+.overflow-hid {
+  overflow: hidden;
 }
 
 .z-index-10 {
@@ -286,30 +355,3 @@ a:link {
 .border-blue {
   border: 2px solid blue;
 }
-
-.image-container {
-  position: relative;
-  width: 1250px;
-  
-  
-}
-.image-container img {
-  width: 1250px;
-  height: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: white;
-  
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  
-}
-
-
