@@ -1,0 +1,388 @@
+* p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, a {
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  p, a {
+    font-size: 12px;
+  }
+}
+
+/* Kontak Kami */
+.contact-us-container {
+  border-top: 15px solid rgb(167, 29, 29) !important;
+  border-radius: 15px;
+  box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.123);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -4rem;
+  margin-bottom: 5rem;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  .contact-us-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+}
+
+.gmaps-container {
+  padding: 0;
+}
+
+.form-input-p {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.form-name, .form-telp {
+  margin-right: 10px !important;
+}
+.form-email, .form-subject {
+  margin-left: 10px !important;
+}
+@media screen and (max-width: 764px) {
+  .form-name, .form-telp {
+    margin-right: 0px !important;
+  }
+  .form-email, .form-subject {
+    margin-left: 0px !important;
+  }
+}
+
+/* FONT */
+.txt-yellow {
+  color: #FFD43B;
+}
+.font-size {
+  font-size: 14px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-absolute-bottom-15 {
+  bottom: 15% !important;
+}
+
+.bussiness-list-position {
+  position: absolute;
+  top: -40px;
+}
+@media screen and (max-width: 768px) {
+  .bussiness-list-position {
+    position: relative;
+    top: 0;
+    border: 0px;
+  }
+}
+
+.bussiness-list-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .bussiness-list-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.bussiness-list-shadow {
+  box-shadow: 0px 8px 10px rgb(153, 153, 153);
+}
+@media screen and (max-width: 768px) {
+  .bussiness-list-shadow {
+    box-shadow: none;
+  }
+}
+
+.bussines-list-border {
+  border-bottom: 1px;
+  border-bottom-color: rgb(0, 0, 0);
+}
+@media screen and (min-width: 768px) {
+  .bussines-list-border {
+    border-right: 1px;
+    border-bottom: 0;
+    border-bottom-color: rgb(0, 0, 0);
+  }
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 990px) {
+  .b-lists-container {
+    width: 720px !important;
+  }
+}
+
+/* Our Vision & Mission - Section */
+.our-vision, .our-mission {
+  overflow: hidden;
+}
+
+.our-vision-bg {
+  background-color: rgb(38, 38, 38);
+}
+
+.our-mission-bg {
+  background-color: #FFD43B;
+}
+
+.eye-icon {
+  top: -15;
+  right: -50;
+  z-index: -1;
+}
+
+.target-icon {
+  top: 16;
+  right: -50;
+  z-index: -1;
+}
+
+/* Logo Company */
+.company-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.group-desc {
+  width: 100%
+}
+@media screen and (min-width: 1024px) {
+  .group-desc {
+    width: 55%
+  }
+}
+
+/* Our Business */
+.bg-our-business-deco {
+  background-image: url(../images/bkg-bkl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20rem;
+}
+
+.our-business-box {
+  top: 150px;
+}
+
+.our-business-desc {
+  width: 100%;
+}
+
+/* About Us & Our Service Resume Section */
+.about-us, .our-service {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+@media screen and (max-width: 767px) {
+  .about-us, .our-service {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+}
+
+.about-img {
+  /* background-color: rgb(141, 140, 140);
+  border: 1px solid rgb(9, 9, 97); */
+  border-radius: 10px;
+  padding: 0 !important;
+  box-shadow: 30px 30px 0px #FFD43B;
+}
+.about-img img {
+  border-radius: 10px;
+}
+
+.service-img img {
+  /* background-color: rgb(141, 140, 140); */
+  /* border: 1px solid rgb(9, 9, 97); */
+  border-radius: 10px;
+  padding: 0 !important;
+}
+
+.warehouse-img-mobile {
+  display: block;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 768px ) {
+  .warehouse-img-mobile {
+    display: none;
+  }
+}
+
+.shadow-img {
+  box-shadow: -10px 30px 0px #FFD43B;
+  border-radius: 10px;
+}
+
+.about-desc, .service-desc {
+  /* border: 1px solid salmon; */
+  margin-bottom: 1rem;
+}
+
+.contact-us {
+  background-color: rgb(167, 29, 29);
+}
+
+.contact-btn {
+  background-color: rgb(117, 16, 16);
+}
+
+.retangle-box {
+  /* border: 1px solid black; */
+  background-color: rgb(134, 134, 134);
+  width: 100%;
+  height: 40em;
+}
+@media screen and (max-width: 768px) {
+  .retangle-box {
+    height: 25em;
+  }
+}
+@media screen and (max-width: 425px) {
+  .retangle-box {
+    height: 15em;
+  }
+}
+
+/* Why Choose Us - Section */
+.why-choose-us {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.why-choose-us-items {
+  width: 15rem;
+}
+@media screen and (max-width: 767px) {
+  .why-choose-us-items {
+    margin-bottom: 3em;
+  }
+}
+
+.why-choose-us-items p {
+  font-size: 12px;
+}
+
+.circle-icon {
+  /* border: 1px solid black; */
+  background-color: #FFD43B;
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+}
+
+.bg-lang-sec {
+  display: flex;
+  width: 5em;
+}
+@media screen and (max-width: 768px) {
+  .bg-lang-sec {
+    justify-content: flex-end;
+    width: auto;
+  }
+}
+
+.logo-size {
+  width: 240px;
+  height: 75px;
+}
+@media screen and (max-width: 337px) {
+  .logo-size {
+    width: 190px;
+    height: 60px;
+  }
+}
+
+.bg-footer {
+  background-color: #1d1d1d
+}
+
+.bg-subnav {
+  background-color: rgb(245, 245, 245);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.m-top-bottom-txt-20 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.nav-item a:hover, .active-link {
+  color: rgb(167, 29, 29) !important;
+}
+
+.active-link {
+  border-bottom: 3px solid rgb(167, 29, 29);
+}
+
+.logo-decs {
+  right: -170;
+  bottom: -130;
+}
+
+.overflow-hid {
+  overflow: hidden;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.border-orange {
+  border: 2px solid orange;
+}
+
+.border-violet {
+  border: 2px solid violet;
+}
+
+.border-black {
+  border: 2px solid black;
+}
+
+.border-red {
+  border: 2px solid red; 
+}
+
+.border-green {
+  border: 2px solid green;
+}
+
+.border-yellow {
+  border: 2px solid yellow;
+}
+
+.border-blue {
+  border: 2px solid blue;
+}
