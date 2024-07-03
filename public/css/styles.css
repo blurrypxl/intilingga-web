@@ -137,7 +137,7 @@ p, a {
   }
 }
 
-/* Our Mission - Section */
+/* Our Vision & Mission - Section */
 .our-vision, .our-mission {
   overflow: hidden;
 }
@@ -160,6 +160,21 @@ p, a {
   top: 16;
   right: -50;
   z-index: -1;
+}
+
+/* Logo Company */
+.company-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.group-desc {
+  width: 100%
+}
+@media screen and (min-width: 1024px) {
+  .group-desc {
+    width: 55%
+  }
 }
 
 /* About Us & Our Service Resume Section */
