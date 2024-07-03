@@ -177,6 +177,22 @@ p, a {
   }
 }
 
+/* Our Business */
+.bg-our-business-deco {
+  background-image: url(../images/bkg-bkl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20rem;
+}
+
+.our-business-box {
+  top: 150px;
+}
+
+.our-business-desc {
+  width: 100%;
+}
+
 /* About Us & Our Service Resume Section */
 .about-us, .our-service {
   padding-top: 8rem;
