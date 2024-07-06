@@ -185,12 +185,17 @@ p, a {
   min-height: 20rem;
 }
 
-/* .business-container {
-  height: 70rem;
-} */
+.business-container {
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .business-container {
+    height: 30rem;
+  }
+}
 
 .our-business-box {
-  top: -250px;
+  top: -200px;
   width: 90%;
 }
 @media screen and (min-width: 768px) {
@@ -220,15 +225,15 @@ p, a {
 }
 
 .business-list .img-2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .business-list .img-2 {
     margin-top: 0;
     margin-bottom: 0;
-    /* margin-left: 2px;
-    margin-right: 2px; */
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
