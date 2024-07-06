@@ -13,6 +13,12 @@ p, a {
   }
 }
 
+/* Safety */
+.safety .row>* {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /* Kontak Kami */
 .contact-us-container {
   border-top: 15px solid rgb(167, 29, 29) !important;
