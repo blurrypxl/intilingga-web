@@ -366,9 +366,8 @@ a {
 }
 
 .business-container {
-  height: auto;
+  height: -auto;
 }
-
 @media screen and (min-width: 768px) {
   .business-container {
     height: 30rem;
@@ -692,17 +691,14 @@ a:link {
 
 button {
   border-radius: 50%;
-
 }
 
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
-
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-
   background-color: transparent;
   border: 2px solid white;
 }
