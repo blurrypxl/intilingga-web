@@ -29,6 +29,19 @@ a {
   }
 }
 
+/* Service List */
+.service-img {
+  width: fit-content;
+}
+.service-list {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .service-list {
+    width: 40rem;
+  }
+}
+
 /* Job Vacancies */
 .job-vacancies-box {
   width: 100%;
