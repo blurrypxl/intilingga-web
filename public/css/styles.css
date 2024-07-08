@@ -263,6 +263,11 @@ a {
   bottom: 15% !important;
 }
 
+.business-list-box .container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 .bussiness-list-position {
   position: absolute;
   top: -40px;
@@ -276,11 +281,22 @@ a {
   }
 }
 
+.business-list-active {
+  background-color: #FFD43B;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .business-list-active {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
 .bussiness-list-item {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 @media screen and (min-width: 768px) {
   .bussiness-list-item {
     padding-top: 5px;
@@ -291,7 +307,6 @@ a {
 .bussiness-list-shadow {
   box-shadow: 0px 8px 10px rgb(153, 153, 153);
 }
-
 @media screen and (max-width: 768px) {
   .bussiness-list-shadow {
     box-shadow: none;
@@ -303,7 +318,7 @@ a {
   border-bottom-color: rgb(0, 0, 0);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .bussines-list-border {
     border-right: 1px;
     border-bottom: 0;
@@ -509,6 +524,11 @@ a {
 .about-img img {
   border-radius: 10px;
 }
+@media screen and (max-width: 767px) {
+  .about-img img {
+    border-radius: 0;
+  }
+}
 
 .service-img img {
   /* background-color: rgb(141, 140, 140); */
@@ -590,8 +610,8 @@ a {
   /* border: 1px solid black; */
   background-color: #FFD43B;
   border-radius: 100%;
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .bg-lang-sec {
@@ -708,13 +728,9 @@ button {
   background-color: transparent;
   border: 2px solid white;
 }
-.label1{
-  background-color: #E3E3E3;
-  color: black;
-  padding: 0.5rem;
-  font-family: sans-serif;
-  border-radius: 0.3rem;
-  cursor: pointer;
-  margin-top: 1rem;
-  border-color: black 2;
+
+.carousel-dark .carousel-indicators .active {
+  background-color: #FFD43B;
+  border: 2px solid #FFD43B;
 }
+
