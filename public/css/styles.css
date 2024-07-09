@@ -607,11 +607,11 @@ a {
 }
 
 .circle-icon {
-  /* border: 1px solid black; */
+
   background-color: #FFD43B;
   border-radius: 100%;
-  width: 6rem;
-  height: 6rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .bg-lang-sec {
