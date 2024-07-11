@@ -46,6 +46,7 @@ a {
   margin-bottom: 1rem;
   height: auto;
 }
+
 @media screen and (min-width: 1024px) {
   .our-tank-desc {
     height: 8rem;
@@ -66,9 +67,11 @@ a {
 .service-img {
   width: fit-content;
 }
+
 .service-list {
   width: 100%;
 }
+
 @media screen and (min-width: 768px) {
   .service-list {
     width: 40rem;
@@ -79,6 +82,7 @@ a {
 .job-vacancies-box {
   width: 100%;
 }
+
 @media screen and (min-width: 768px) {
   .job-vacancies-box {
     width: 80%;
@@ -160,6 +164,7 @@ a {
   animation-fill-mode: forwards;
   color: white;
 }
+
 @keyframes open-arrow {
   100% {
     transform: rotate(180deg);
@@ -268,6 +273,12 @@ a {
   padding-left: 0 !important;
 }
 
+@media screen and (min-width: 1024px) {
+  .business-list-box .container {
+    width: 80% !important;
+  }
+}
+
 .bussiness-list-position {
   position: absolute;
   top: -40px;
@@ -286,6 +297,7 @@ a {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 @media screen and (max-width: 767px) {
   .business-list-active {
     border-top-right-radius: 0 !important;
@@ -297,16 +309,23 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.item-2 {
+  border-left: 1px solid rgba(46, 46, 46, 0.439) !important;
+  border-right: 1px solid rgba(46, 46, 46, 0.439) !important;
+}
+
 @media screen and (min-width: 768px) {
   .bussiness-list-item {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
 .bussiness-list-shadow {
   box-shadow: 0px 8px 10px rgb(153, 153, 153);
 }
+
 @media screen and (max-width: 768px) {
   .bussiness-list-shadow {
     box-shadow: none;
@@ -389,6 +408,7 @@ a {
 .business-container {
   height: -auto;
 }
+
 @media screen and (min-width: 768px) {
   .business-container {
     height: 30rem;
@@ -428,13 +448,16 @@ a {
   }
 }
 
-.business-list .img-2, .business-list .img-2-logistic-service {
+.business-list .img-2,
+.business-list .img-2-logistic-service {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-  .business-list .img-2, .business-list .img-2-logistic-service {
+
+  .business-list .img-2,
+  .business-list .img-2-logistic-service {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 1rem;
@@ -457,9 +480,11 @@ a {
 .img-1 {
   background-image: url(../images/ig-1\ \(3\).jpg);
 }
+
 .img-2 {
   background-image: url(../images/kl.png);
 }
+
 .img-3 {
   background-image: url(../images/ig-1\ \(4\).jpg);
 }
@@ -467,9 +492,11 @@ a {
 .img-1-logistic-service {
   background-image: url(../images/Intilingga\ \(8\ of\ 8\).png);
 }
+
 .img-2-logistic-service {
   background-image: url(../images/kapal.jpg);
 }
+
 .img-3-logistic-service {
   background-image: url(../images/ig-1\ \(3\).jpg);
 }
@@ -481,6 +508,7 @@ a {
   left: 0;
   background-color: rgba(0, 0, 0, 0.697);
 }
+
 .img-logistic-service-bg {
   border-radius: 10px;
   width: 100%;
@@ -488,16 +516,22 @@ a {
   left: 0;
   background-color: rgba(0, 0, 0, 0.374);
 }
+
 @media screen and (min-width: 768px) {
   .img-bg {
     height: 10rem;
   }
+
   .img-logistic-service-bg {
     height: 10rem;
   }
 }
 
 /* About Us & Our Service Resume Section */
+/* .services {
+  width: fit-content;
+} */
+
 .about-us,
 .our-service {
   padding-top: 8rem;
@@ -518,12 +552,14 @@ a {
   border: 1px solid rgb(9, 9, 97); */
   border-radius: 10px;
   padding: 0 !important;
-  box-shadow: 30px 30px 0px #FFD43B;
+  box-shadow: 25px 20px 0px #FFD43B;
 }
 
 .about-img img {
-  border-radius: 10px;
+  border-start-start-radius: 10px;
+  border-end-start-radius: 10px;
 }
+
 @media screen and (max-width: 767px) {
   .about-img img {
     border-radius: 0;
@@ -549,14 +585,27 @@ a {
 }
 
 .shadow-img {
-  box-shadow: -10px 30px 0px #FFD43B;
-  border-radius: 10px;
+  box-shadow: none;
+}
+.shadow-img:hover {
+  box-shadow: 0 25px 0 -10px #FFD43B;
+  border-radius: 5%;
+  cursor: pointer;
 }
 
 .about-desc,
 .service-desc {
   /* border: 1px solid salmon; */
   margin-bottom: 1rem;
+  /* width: 50%; */
+}
+@media screen and (min-width: 1024px) {
+  .about-desc {
+    width: 50%;
+  }
+  .service-desc {
+    width: 70%;
+  }
 }
 
 .contact-us {
@@ -567,22 +616,36 @@ a {
   background-color: rgb(117, 16, 16);
 }
 
-.retangle-box {
-  /* border: 1px solid black; */
-  background-color: rgb(134, 134, 134);
-  width: 100%;
-  height: 40em;
+/* .carousel-item {
+  border: 1px solid yellowgreen;
+  background-color: black;
+} */
+
+.carousel-img-desc {
+  width: 80%;
 }
 
-@media screen and (max-width: 768px) {
-  .retangle-box {
-    height: 25em;
+.caraousel-text {
+  font-size: 10px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-img-desc {
+    width: 60%;
+  }
+
+  .caraousel-text {
+    font-size: 2rem !important;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .retangle-box {
-    height: 15em;
+@media screen and (min-width: 1024px) {
+  .carousel-img-desc {
+    width: 45%;
+  }
+
+  .caraousel-text {
+    font-size: 2.5rem !important;
   }
 }
 
@@ -601,17 +664,22 @@ a {
     margin-bottom: 3em;
   }
 }
+@media screen and (min-width: 1024px) {
+  .why-choose-us-items {
+    width: 20rem;
+  }
+}
 
 .why-choose-us-items p {
   font-size: 12px;
 }
 
 .circle-icon {
-
+  /* border: 1px solid black; */
   background-color: #FFD43B;
   border-radius: 100%;
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .bg-lang-sec {
@@ -733,4 +801,3 @@ button {
   background-color: #FFD43B;
   border: 2px solid #FFD43B;
 }
-
