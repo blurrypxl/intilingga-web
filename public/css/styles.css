@@ -54,9 +54,27 @@ a {
 }
 
 /* Our Company Logistic Infrastructure */
+.logistic-infra, .logistic-serv {
+  width: 100% !important;
+}
+@media screen and (min-width: 1024px) {
+  .logistic-infra, .logistic-serv {
+    width: 80% !important;
+  }
+}
+
 .logistic-infra .row>* {
   padding-right: 0;
   padding-left: 0;
+}
+
+.logistic-serv-box {
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .logistic-serv-box {
+    height: 24rem;
+  }
 }
 
 .table-head-box .table-warning {
@@ -398,6 +416,11 @@ a {
 }
 
 /* Our Business */
+.other-line-of-business-items {
+  padding: 0 !important;
+}
+
+
 .bg-our-business-deco {
   background-image: url(../images/bkg-bkl.jpg);
   background-repeat: no-repeat;
@@ -406,7 +429,7 @@ a {
 }
 
 .business-container {
-  height: -auto;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -433,7 +456,7 @@ a {
 }
 
 .our-business-desc {
-  width: 100%;
+  width: 80%;
 }
 
 .business-list {
@@ -480,25 +503,24 @@ a {
 .img-1 {
   background-image: url(../images/ig-1\ \(3\).jpg);
 }
-
 .img-2 {
   background-image: url(../images/kl.png);
 }
-
 .img-3 {
   background-image: url(../images/ig-1\ \(4\).jpg);
 }
 
 .img-1-logistic-service {
   background-image: url(../images/Intilingga\ \(8\ of\ 8\).png);
+  height: 14rem;
 }
-
 .img-2-logistic-service {
   background-image: url(../images/kapal.jpg);
+  height: 14rem;
 }
-
 .img-3-logistic-service {
   background-image: url(../images/ig-1\ \(3\).jpg);
+  height: 14rem;
 }
 
 .img-bg {
@@ -521,10 +543,9 @@ a {
   .img-bg {
     height: 10rem;
   }
-
-  .img-logistic-service-bg {
-    height: 10rem;
-  }
+  /* .img-logistic-service-bg {
+    height: 100%;
+  } */
 }
 
 /* About Us & Our Service Resume Section */
