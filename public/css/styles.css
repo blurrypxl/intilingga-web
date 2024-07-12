@@ -416,11 +416,6 @@ a {
 }
 
 /* Our Business */
-.other-line-of-business-items {
-  padding: 0 !important;
-}
-
-
 .bg-our-business-deco {
   background-image: url(../images/bkg-bkl.jpg);
   background-repeat: no-repeat;
@@ -449,11 +444,11 @@ a {
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .our-business-box {
     width: 60%;
   }
-}
+} */
 
 .our-business-desc {
   width: 80%;
