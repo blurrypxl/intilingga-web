@@ -416,20 +416,32 @@ a {
 }
 
 /* Our Business */
-.bg-our-business-deco {
+.bg-our-business-deco, .bg-our-product-deco {
   background-image: url(../images/bkg-bkl.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-our-business-deco {
   min-height: 20rem;
+}
+
+.bg-our-product-deco {
+  min-height: 27rem;
 }
 
 .business-container {
   height: auto;
 }
-
+.product-container {
+  height: 35rem;
+}
 @media screen and (min-width: 768px) {
   .business-container {
     height: 30rem;
+  }
+  .product-container {
+    height: 35rem;
   }
 }
 
@@ -437,18 +449,20 @@ a {
   top: -200px;
   width: 90%;
 }
-
+.our-product-box {
+  top: -370px;
+  width: 90%
+}
 @media screen and (min-width: 768px) {
-  .our-business-box {
+  .our-business-box, .our-product-box {
     width: 80%;
   }
 }
-
-/* @media screen and (min-width: 1024px) {
-  .our-business-box {
-    width: 60%;
+@media screen and (min-width: 2560px) {
+  .our-business-box, .our-product-box {
+    width: 40%;
   }
-} */
+}
 
 .our-business-desc {
   width: 80%;
