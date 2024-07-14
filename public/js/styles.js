@@ -1,3 +1,4 @@
+// Open-Close Job Vacancies Card
 const listContent = document.querySelectorAll('.list');
 
 // Gets all data in the listContent variable, and assigns it to a value variable for each data
