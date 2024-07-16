@@ -608,6 +608,11 @@ a {
 }
 
 /* About Us & Our Service Resume Section */
+.our-service-desc {
+  width: 70%;
+  margin-top: 6rem;
+}
+
 .about-us,
 .our-service {
   padding-top: 8rem;
@@ -615,7 +620,6 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-
   .about-us,
   .our-service {
     padding-top: 0;
@@ -759,15 +763,12 @@ a {
   width: auto;
   margin-bottom: 4rem;
   text-align: center;
-
 }
 
 @media screen and (min-width: 767px) {
   .why-choose-us-items {
     margin-bottom: 5rem;
     width: 20rem;
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
   }
 }
 
