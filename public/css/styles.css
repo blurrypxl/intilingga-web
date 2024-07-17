@@ -12,8 +12,6 @@ h6 {
 * h3 {
   font-family: 'Montserrat';
   font-weight: 700;
-
-
 }
 
 .btn-outline-dark {
@@ -793,6 +791,7 @@ a {
 .bg-lang-sec {
   display: flex;
   width: 5em;
+  background-color: rgba(170, 170, 170, 0.435);
 }
 
 @media screen and (max-width: 768px) {
@@ -803,14 +802,14 @@ a {
 }
 
 .logo-size {
-  width: 240px;
+  width: 270px;
   height: 75px;
 }
 
 @media screen and (max-width: 337px) {
   .logo-size {
     width: 190px;
-    height: 60px;
+    height: 53px;
   }
 }
 
@@ -829,6 +828,11 @@ a:link {
 .m-top-bottom-txt-20 p {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .navbar {

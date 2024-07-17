@@ -22,23 +22,6 @@
 </head>
 
 <body class="position-relative">
-  <div class="border-bottom">
-    <div class="pe-4 container-fluid d-flex justify-content-end">
-      <div class="bg-lang-sec row">
-        <div class="col container">
-          <div class="row">
-            <div class="col d-flex justify-content-center">
-              <a href="#">
-                <img src="../../public/images/usa.png" alt="change languange to english (united states)" width="30"
-                  height="30">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg nav-shadow">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -62,9 +45,18 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item ">
+        <div class="offcanvas-body d-flex flex-column">
+          <ul class="navbar-nav justify-content-end pe-lg-4">
+            <li class="bg-lang-sec nav-item d-flex justify-content-center">
+              <a href="#">
+                <img src="../../public/images/usa.png" alt="change languange to english (united states)" width="30"
+                  height="30">
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav justify-content-end pe-3">
+            <li class="nav-item">
               <a class="nav-link" aria-current="page" href="../ind/beranda.html">Beranda</a>
             </li>
 
@@ -77,29 +69,31 @@
                 aria-expanded="false">
                 Bisnis
               </a>
+
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="../ind/business detail industrial petroleum.html">business detail industrial petroleum</a></li>
-                <li><a class="dropdown-item" href="../ind/best logistic service.html">business detail logistic</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="../ind/bisnis landing.html">business landing</a></li>
+                <li><a class="dropdown-item" href="../ind/business detail industrial petroleum.html">Business Detail
+                    Industrial Petroleum</a></li>
+
+                <li><a class="dropdown-item" href="../ind/best logistic service.html">Business Detail Logistic</a></li>
+
+                <li><a class="dropdown-item" href="../ind/bisnis landing.html">Business Landing</a></li>
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="../ind/k3l.html">Safety, health & environment</a>
+              <a class="nav-link" href="../ind/k3l.html">Safety, Health & Environment</a>
             </li>
 
-            <li class="nav-item active active-link">
-              <a class="nav-link" href="../ind/layanan.html">Layanan</a>
+            <li class="nav-item">
+              <a class="nav-link active active-link" href="../ind/layanan.html">Layanan</a>
             </li>
 
-            <li class="nav-item ">
-              <a class="nav-link " href="../ind/kontak-kami.html">Kontak Kami</a>
+            <li class="nav-item">
+              <a class="nav-link" href="../ind/kontak-kami.html">Kontak Kami</a>
             </li>
           </ul>
         </div>
+
       </div>
     </div>
   </nav>
