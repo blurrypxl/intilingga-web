@@ -22,31 +22,6 @@
 </head>
 
 <body class="position-relative">
-  <div class="border-bottom">
-    <div class="pe-4 container-fluid d-flex justify-content-end">
-      <div class="bg-lang-sec row">
-        <div class="col container">
-          <div class="row">
-            <!-- Carrier Link -->
-            <!--
-            <div class="col">
-              <a class="text-black" href="#" target="_blank">
-                Carrier
-              </a>
-            </div>
-            -->
-
-            <div class="col d-flex justify-content-center">
-              <a href="#">
-                <img src="../../public/images/usa.png" alt="change languange to english (united states)" width="30"
-                  height="30">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg nav-shadow">
     <div class="container-fluid">
@@ -71,8 +46,17 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <div class="offcanvas-body d-flex flex-column">
+          <ul class="navbar-nav justify-content-end pe-lg-4">
+            <li class="bg-lang-sec nav-item d-flex justify-content-center">
+              <a href="#">
+                <img src="../../public/images/usa.png" alt="change languange to english (united states)" width="30"
+                  height="30">
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav justify-content-end pe-3">
             <li class="nav-item active active-link">
               <a class="nav-link" aria-current="page" href="../ind/beranda.html">Beranda</a>
             </li>
@@ -88,8 +72,9 @@
               </a>
 
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="../ind/business detail industrial petroleum.html">Business Detail Industrial Petroleum</a></li>
-                
+                <li><a class="dropdown-item" href="../ind/business detail industrial petroleum.html">Business Detail
+                    Industrial Petroleum</a></li>
+
                 <li><a class="dropdown-item" href="../ind/best logistic service.html">Business Detail Logistic</a></li>
 
                 <li><a class="dropdown-item" href="../ind/bisnis landing.html">Business Landing</a></li>
@@ -311,7 +296,7 @@
           </div>
         </div>
       </div>
-        <!-- gambar lebih besar -->
+      <!-- gambar lebih besar -->
       <div class="col-md-8 mb-3 about-img">
         <img src="../../public/images/Intilingga (8 of 8).png" class="h-100 w-100">
       </div>
@@ -323,7 +308,7 @@
   <div class="why-choose-us d-flex flex-column align-items-center">
     <h3 class="mb-5">Why Choose Us?</h3>
 
-    <div class="mt-3 d-flex flex-column flex-md-row align-items-center">
+    <div class="mt-3 d-flex flex-column flex-lg-row align-items-center">
       <div class="why-choose-us-items d-flex flex-column align-items-center">
         <div class="circle-icon d-flex justify-content-center align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 70.219 61.425">
@@ -342,8 +327,6 @@
                 transform="translate(-66.598 -312.959)" fill="#4a3c0d" />
             </g>
           </svg>
-
-          <!-- <i class="fa-solid fa-user-tie fa-xl" style="color: #000000;"></i> -->
         </div>
 
         <p class="mt-4 fw-bold">EXPERIENCE STAFF</p>
@@ -358,7 +341,6 @@
                 transform="translate(0 0)" fill="#4a3c0d" />
             </g>
           </svg>
-          <!-- <i class="fa-solid fa-globe fa-xl"></i> -->
         </div>
 
         <p class="mt-4 fw-bold">NATIONWIDE SERVICES</p>
@@ -367,12 +349,9 @@
       <div class="why-choose-us-items d-flex flex-column align-items-center">
         <div class="circle-icon d-flex justify-content-center align-items-center">
           <img src="../../public/images/lencana.png" width="55" height="72">
-
-          <!-- <i class="fa-regular fa-circle-check fa-xl"></i> -->
         </div>
 
         <p class="mt-4 fw-bold">BEST CUSTOMER SERVICE</p>
-
       </div>
     </div>
   </div>
@@ -400,16 +379,30 @@
       </div>
 
       <div class="col-md-8 d-flex flex-md-row justify-content-center">
-        <div class="mb-3 service-img shadow-img">
+        <div class="mb-3 service-img shadow-img position-relative">
           <a href="../ind/layanan.html">
-          <img src="../../public/images/ship1.png" class="w-100 h-100" >
+            <img src="../../public/images/ship1.png" class="w-100 h-100">
           </a>
+
+          <div
+            class="p-4 w-100 position-absolute bottom-0 transform-middle-y text-white opacity-top-bottom rounded-bottom">
+            <p class="mb-1">
+              Ship Agency
+            </p>
+          </div>
         </div>
 
-        <div class="mb-3 service-img shadow-img warehouse-img-mobile">
+        <div class="mb-3 service-img shadow-img warehouse-img-mobile position-relative">
           <a href="../ind/layanan.html">
-          <img src="../../public/images/kontener.png" class="w-100 h-100">
+            <img src="../../public/images/kontener.png" class="w-100 h-100">
           </a>
+
+          <div
+            class="p-4 w-100 position-absolute bottom-0 transform-middle-y text-white opacity-top-bottom rounded-bottom">
+            <p class="mb-1">
+              Warehouse Services
+            </p>
+          </div>
         </div>
       </div>
 
